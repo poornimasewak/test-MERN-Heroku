@@ -1,0 +1,21 @@
+{
+  "name": "test-mern-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poornimasewak/test-MERN-Heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poornimasewak/test-MERN-Heroku/issues"
+  },
+  "homepage": "https://github.com/poornimasewak/test-MERN-Heroku#readme"
+}
