@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 // ...
 // Right before your app.listen(), add this:
-app.get("*", (req, res) => {  
+app.get("/hello", (req, res) => {  
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
